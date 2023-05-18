@@ -20,3 +20,9 @@
 > - devDependencies : 운영 배포 시 빠져도 되는 라이브러리들 (웹팩, js-compression, sass 등)
 - - ```--global ( == -g)``` : 마지막에 헤딩 명령어 추가 시 전역으로 설치되어 **node_modules** 하위로 들어가지 않음.
 - ```npm unstall 라이브러리명``` : npm 삭제 명령어
+
+--- 
+
+## 웹팩 (webpack)
+- getting-started 폴더에 섹션 3부터 작업
+- ```npm run build`` : package.json의 "script" 블럭에 ```"build" : ``` 추가하면 해당 라인이 실행되는 것
