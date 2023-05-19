@@ -26,3 +26,5 @@
 ## 웹팩 (webpack)
 - getting-started 폴더에 섹션 3부터 작업
 - ```npm run build`` : package.json의 "script" 블럭에 ```"build" : ``` 추가하면 해당 라인이 실행되는 것
+- webpack.config.js의 ```devtool: 'source-map'```옵션은 난독화된 웹팩 빌드 결과물일지라도 원본 소스로 연결시켜주는 것 (운영 배포 시 제외하기)
+- ```modules > rules > use``` 항목의 경우 ***배열의 오른쪽 -> 왼쪽 순서로 적용***되니, 작성 순서도 중요하다!
